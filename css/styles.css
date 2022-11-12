@@ -35,13 +35,17 @@ ul {
 
 /* шапка */
 /* лого */
+.item>.current {
+  color: var(--logo-color);
+}
+
+
 .icon-nav1 {
   width: 16px;
   height: 12px;
   fill: var(--text-color);
   margin-right: 10px;
-
-
+  align-items: center;
 }
 
 .icon-nav2 {
@@ -49,7 +53,6 @@ ul {
   height: 16px;
   fill: var(--text-color);
   margin-right: 10px;
-
 }
 
 .icon-nav2:hover,
@@ -96,15 +99,12 @@ ul {
 .nav-item {
   display: flex;
   margin-left: 93px;
-
 }
+
 
 .item+.item {
   margin-left: 50px;
 }
-
-
-
 
 .sate {
   display: block;
@@ -123,16 +123,12 @@ ul {
   color: var(--logo-color);
 }
 
-
-
 /* контакты */
 .nav-herder {
-  display: flex;
-  align-items: baseline;
+  display: inline-flex;
+  align-items: center;
   margin-left: auto;
 }
-
-
 
 .nav-contact {
   display: flex;
@@ -140,9 +136,7 @@ ul {
 }
 
 .contact {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: flex;
   align-items: center;
   font-weight: 500;
   line-height: 1.14;
@@ -262,7 +256,7 @@ ul {
 }
 
 .benefits {
-  padding-top: 30px;
+  margin-top: 30px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -412,8 +406,7 @@ ul {
 .klients-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
-
+  margin-top: 50px;
 
 }
 
@@ -506,7 +499,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #575860;
+  background: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -652,6 +645,11 @@ ul {
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
+}
+
+.projects-karts {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .item-h {
