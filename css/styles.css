@@ -350,7 +350,6 @@ ul {
 .social-list {
   display: flex;
   margin-top: 16px;
-  padding-bottom: 30px;
   justify-content: center;
 }
 
